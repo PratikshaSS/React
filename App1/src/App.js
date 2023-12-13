@@ -1,9 +1,15 @@
 //import logo from './logo.svg';
 import './App.css';
+import Navigation from './component/Navigation';
+import Main from './component/Main';
+import Bio from './component/Bio';
 
 function App() {
   return (
     <div>
+      <Navigation/>
+       <Main/>
+       <Bio/>
       </div>
   );
 }
